@@ -247,13 +247,7 @@ Los **algoritmos Monte Carlo** usan el azar para resolver problemas aproximados,
 ---
 
 ## ZONA DE CAPTURAS
+![alt text](image.png) ![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)![alt text](image-4.png)![alt text](image-5.png)![alt text](image-6.png)![alt text](image-7.png)
 
+Estas capturas estan en orden cronologico simplemente el hecho de ponerlas junto al texto confundirian las actividades
 ---
-
-## Extra: Consejos y curiosidades
-
-- Para repasar, intenta resolver a mano al menos un MST por Kruskal y Prim.
-- Implementa tu propio generador de números aleatorios y compara su distribución con la de Java.
-- Investiga otros paradigmas de diseño de algoritmos: programación dinámica, vuelta atrás, ramificación y poda.
-- ¡Haz simulaciones propias con Monte Carlo (ejemplo: estimar área de una figura irregular con puntos aleatorios)!
-
