@@ -2,8 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package recubrimientominimoarbol;
+package taller3;
 
+/**
+ *
+ * @author natsu
+ */
 public class OrdenamientoMerge {
 
     public static void ordenar(int[] arreglo) {

@@ -2,8 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package recubrimientominimoarbol;
+package taller2;
 
+/**
+ *
+ * @author natsu
+ */
 import java.util.*;
 
 public class KruskalAlgorithm {

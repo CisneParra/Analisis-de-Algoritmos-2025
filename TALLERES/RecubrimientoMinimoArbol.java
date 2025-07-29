@@ -1,18 +1,18 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package recubrimientominimoarbol;
+package taller4;
 
+/**
+ *
+ * @author natsu
+ */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- *
- * @author Josue
- */
 class Edge implements Comparable<Edge> {
 
     int src, dest, weight;
@@ -140,51 +140,3 @@ public class RecubrimientoMinimoArbol {
 }
 
 
-/*
-Descripción Paso a Paso
-1. Ingreso de datos (desde consola):
-El usuario indica cuántos vértices tiene el grafo.
-El usuario indica cuántas aristas tiene el grafo.
-Para cada arista, el usuario ingresa:
-Nodo origen.
-Nodo destino.
-Peso de la arista.
-
-2. Proceso del algoritmo de Kruskal:
-Las aristas se ordenan de menor a mayor peso.
-Se va recorriendo cada arista:
-Si unir los dos nodos de la arista no forma un ciclo, la arista se agrega al MST.
-Si forma un ciclo, la arista se descarta.
-El algoritmo continúa hasta que el MST tiene exactamente vértices - 1 aristas.
-
-3. Impresión del resultado:
-Se muestra:
-Cada arista seleccionada.
-El peso total del MST.
-Además, en consola puedes observar cómo el algoritmo toma decisiones.
-
-
- RESULTADO DE LA CONSOLA ESPERADO:
-
-=== PROCESO DEL ALGORITMO DE KRUSKAL ===
-
-Evaluando arista: (2 - 3) Peso: 4
--> Arista añadida al MST
-
-Evaluando arista: (0 - 3) Peso: 5
--> Arista añadida al MST
-
-Evaluando arista: (0 - 2) Peso: 6
--> Arista descartada (forma un ciclo)
-
-Evaluando arista: (0 - 1) Peso: 10
--> Arista añadida al MST
-
-ÁRBOL DE RECUBRIMIENTO MÍNIMO (MST)
-(2 - 3) Peso: 4
-(0 - 3) Peso: 5
-(0 - 1) Peso: 10
-
-Peso total del MST: 19
-
-*/
